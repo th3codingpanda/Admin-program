@@ -1,0 +1,16 @@
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.exe
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.deps.json
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.dll
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.pdb
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.dll
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\refint\administratie_opdracht.dll
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.pdb
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\administratie_opdracht.genruntimeconfig.cache
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\ref\administratie_opdracht.dll
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\Usernames.txt
+C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\Passwords.txt
