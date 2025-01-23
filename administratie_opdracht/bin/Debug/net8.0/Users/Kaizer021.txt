@@ -1,3 +1,0 @@
-Username:			Kaizer021
-Password:			fg3e238ef48c:53cbbe17256f65c1d72:b2g33438c3fccdgcfd89g6675bgf4:e
-IsAdmin:			False

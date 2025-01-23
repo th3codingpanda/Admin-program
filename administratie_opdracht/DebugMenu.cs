@@ -1,4 +1,5 @@
-﻿using System;
+﻿using administratie_opdracht;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,3 +31,18 @@ namespace administratie_opdracht
         }
     }
 }
+
+/*        
+      
+    
+                        DataBase dataBase = new DataBase();
+                        for (int i = 0; i < dataBase.userslist.Count; i++)
+{
+    Console.WriteLine(dataBase.userslist[i].Username);
+    Console.WriteLine(dataBase.userslist[i].Password);
+    Console.WriteLine(dataBase.userslist[i].IsAdmin);
+}
+
+
+
+*/

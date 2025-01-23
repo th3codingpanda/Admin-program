@@ -30,7 +30,7 @@ namespace administratie_opdracht
             Encrypt encrypt = new Encrypt();
             aPassWord = encrypt.encrypt(aPassWord);
             StreamWriterSetup streamWriterSetup = new StreamWriterSetup();
-            streamWriterSetup.AddUser(aUserName, aPassWord);
+            streamWriterSetup.AddUser(aUserName, aPassWord , false);
             // encrypt and give info to StreamWriter.AddUser which adds user
         }
     }

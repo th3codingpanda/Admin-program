@@ -9,9 +9,11 @@ public class Administration_Program()
 {
 
     public static void Main() {
-        MainMenuSetup menuSetup = new MainMenuSetup();
-        menuSetup.MainMenu();
-        //just runs the start program (could just be put in program lol)
-        
+        AddUsersToClass addUsersToClass = new AddUsersToClass();
+        addUsersToClass.SetupClass();
+        //MainMenuSetup menuSetup = new MainMenuSetup();
+        //menuSetup.MainMenu();
+        //just runs the start program (could just be put in mainmenu lol)
+
     }
 }
