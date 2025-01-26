@@ -13,6 +13,8 @@ namespace administratie_opdracht
         public async Task DebugMenu()
         {
 
+
+
             Console.WriteLine("Type exit to exit or quit to quit");
             string Menu = Console.ReadLine().ToLower();
             if (Menu == "exit")

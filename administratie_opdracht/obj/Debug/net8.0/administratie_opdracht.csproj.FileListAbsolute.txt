@@ -14,8 +14,6 @@ C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\admi
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\obj\Debug\net8.0\ref\administratie_opdracht.dll
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\Usernames.txt
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\administratie_opdracht\bin\Debug\net8.0\Passwords.txt
-C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\Admin-program\administratie_opdracht\bin\Debug\net8.0\Passwords.txt
-C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\Admin-program\administratie_opdracht\bin\Debug\net8.0\Usernames.txt
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\Admin-program\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.exe
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\Admin-program\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.deps.json
 C:\Users\Gebruiker\Desktop\CODING\C#\Opdracht school\administratie_opdracht\Admin-program\administratie_opdracht\bin\Debug\net8.0\administratie_opdracht.runtimeconfig.json

@@ -23,7 +23,7 @@ internal class MainMenuSetup
         else if (Menu == "create")
         {
             CreateMenu createMenu = new CreateMenu();
-            createMenu.Createuser();
+            createMenu.Createuser(false);
         }
         else {
             Console.WriteLine("enter a valid selection");

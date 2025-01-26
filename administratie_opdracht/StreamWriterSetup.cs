@@ -21,26 +21,13 @@ namespace administratie_opdracht
             DataBase dataBase = new DataBase();
             dataBase.ListAdd(newuser);
             string jsonString = JsonSerializer.Serialize(newuser);
-            Console.WriteLine(jsonString);
             File.AppendAllText(fileName,jsonString);
             Console.WriteLine("Succesfully created: " + aUserName);
             Task.Delay(1000).Wait();
             MainMenuSetup mainMenuSetup = new MainMenuSetup();
             mainMenuSetup.MainMenu();
-
-
-
             return;
-
             }
+
         }
    }
-
-
-/*var file_name = File.Create(fileName);
-file_name.Close();
-File.AppendAllText(fileName, $"Username:\t\t\t{aUserName}\nPassword:\t\t\t{aPassWord}\nIsAdmin:\t\t\tFalse");
-Console.WriteLine("Succesfully created: " + aUserName);
-Task.Delay(1000).Wait();
-MainMenuSetup mainMenuSetup = new MainMenuSetup();
-mainMenuSetup.MainMenu();*/

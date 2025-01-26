@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opdracht school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj": {}
+    "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opracht_school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opdracht school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj": {
+    "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opracht_school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opdracht school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opracht_school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj",
         "projectName": "administratie_opdracht",
-        "projectPath": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opdracht school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opracht_school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\administratie_opdracht.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opdracht school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\Desktop\\CODING\\C#\\Opracht_school\\administratie_opdracht\\Admin-program\\administratie_opdracht\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",

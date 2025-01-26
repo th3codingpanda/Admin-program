@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Intrinsics.X86;
@@ -14,11 +15,24 @@ namespace administratie_opdracht
         public void ListAdd(User temp)
         {            
             userslist.Add(temp);
-            //Console.WriteLine(temp.Username);
-            //Console.WriteLine(temp.Password);
-            //Console.WriteLine(temp.IsAdmin);
 
         }
+        public void SetupClass()
+        {
+            DirectoryInfo d = new DirectoryInfo(@".\\Users\\");
+            FileInfo[] Files = d.GetFiles("*.json");
+            foreach (FileInfo file in Files)
+            {
+                string json = System.IO.File.ReadAllText($".\\Users\\{file.Name}");
+                User User1 = JsonConvert.DeserializeObject<User>(json);
 
-    }
+                ListAdd(User1);
+
+                
+
+
+            }
+        }
+
+        }
 }
