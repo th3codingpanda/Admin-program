@@ -8,7 +8,7 @@ namespace administratie_opdracht
 {
     internal class CreateMenu
     {
-        public async Task Createuser() {
+        public async Task Createuser(bool adming) {
             Console.Clear();
             Console.WriteLine("enter a username");
             string aUserName = Console.ReadLine();
@@ -20,7 +20,7 @@ namespace administratie_opdracht
                 {
                     Console.WriteLine("username is already taken");
                     Task.Delay(1000).Wait();
-                    Createuser();
+                    Createuser(adming);
                     return;
                     // reading thru all the txt files to see if user is not already taken
                 } 
@@ -30,10 +30,8 @@ namespace administratie_opdracht
             Encrypt encrypt = new Encrypt();
             aPassWord = encrypt.encrypt(aPassWord);
             StreamWriterSetup streamWriterSetup = new StreamWriterSetup();
-            streamWriterSetup.AddUser(aUserName, aPassWord , false);
+            streamWriterSetup.AddUser(aUserName, aPassWord , adming);
             // encrypt and give info to StreamWriter.AddUser which adds user
         }
-        // FUCK GITIGNORE
-        //WHY DOES IT NOT KNOW?????????????
     }
 }

@@ -12,7 +12,7 @@ namespace administratie_opdracht
     internal class DataBase
     {
         public List<User> userslist = new List<User>();
-        public void ListAdd(User temp)
+        public void PopulateUserList(User temp)
         {            
             userslist.Add(temp);
 
@@ -26,11 +26,7 @@ namespace administratie_opdracht
                 string json = System.IO.File.ReadAllText($".\\Users\\{file.Name}");
                 User User1 = JsonConvert.DeserializeObject<User>(json);
 
-                ListAdd(User1);
-
-                
-
-
+                PopulateUserList(User1);
             }
         }
 
