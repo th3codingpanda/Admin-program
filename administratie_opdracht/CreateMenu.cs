@@ -33,5 +33,7 @@ namespace administratie_opdracht
             streamWriterSetup.AddUser(aUserName, aPassWord , false);
             // encrypt and give info to StreamWriter.AddUser which adds user
         }
+        // FUCK GITIGNORE
+        //WHY DOES IT NOT KNOW?????????????
     }
 }
