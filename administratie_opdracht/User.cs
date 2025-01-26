@@ -16,6 +16,7 @@ namespace administratie_opdracht
             Password = aPassword;
             IsAdmin = Adminstats;
             //maybe fix
+            //id on thidn it fully owrks
         }
     }
 }
