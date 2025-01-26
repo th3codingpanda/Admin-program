@@ -1,1 +1,5 @@
-{"Username":"Kaizer021","Password":"7334bf4:b4526641fe7ec746438e8ff1f1726ef377f8635d8bg3bf8737:951d1","IsAdmin":false}
+{
+  "Username": "Kaizer021",
+  "Password": "7334bf4:b4526641fe7ec746438e8ff1f1726ef377f8635d8bg3bf8737:951d1",
+  "IsAdmin": true
+}

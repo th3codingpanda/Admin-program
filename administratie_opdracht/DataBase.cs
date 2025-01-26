@@ -12,12 +12,16 @@ namespace administratie_opdracht
     internal class DataBase
     {
         public List<User> userslist = new List<User>();
+        public DataBase() {
+        SetupClassFromFiles();
+        }
+
         public void PopulateUserList(User temp)
         {            
             userslist.Add(temp);
 
         }
-        public void SetupClass()
+        public void SetupClassFromFiles()
         {
             DirectoryInfo d = new DirectoryInfo(@".\\Users\\");
             FileInfo[] Files = d.GetFiles("*.json");

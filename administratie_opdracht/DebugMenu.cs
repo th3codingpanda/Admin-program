@@ -33,18 +33,3 @@ namespace administratie_opdracht
         }
     }
 }
-
-/*        
-      
-    
-                        DataBase dataBase = new DataBase();
-                        for (int i = 0; i < dataBase.userslist.Count; i++)
-{
-    Console.WriteLine(dataBase.userslist[i].Username);
-    Console.WriteLine(dataBase.userslist[i].Password);
-    Console.WriteLine(dataBase.userslist[i].IsAdmin);
-}
-
-
-
-*/

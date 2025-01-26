@@ -12,7 +12,5 @@ public class Administration_Program()
        
         MainMenuSetup menuSetup = new MainMenuSetup();
         menuSetup.MainMenu();
-        
-
     }
 }

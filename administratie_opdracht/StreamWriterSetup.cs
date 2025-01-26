@@ -19,7 +19,6 @@ namespace administratie_opdracht
             file_name.Close();
             User newuser = new User(aUserName,aPassWord,IsAdmin);
             DataBase dataBase = new DataBase();
-            dataBase.PopulateUserList(newuser);
             string jsonString = JsonSerializer.Serialize(newuser);
             File.AppendAllText(fileName,jsonString);
             Console.WriteLine("Succesfully created: " + aUserName);

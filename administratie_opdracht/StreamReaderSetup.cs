@@ -11,7 +11,7 @@ public class StreamReaderSetup
     LoginMenuSetup loginMenuSetup = new LoginMenuSetup();
     public void Login(string username) {
         DataBase addUsersToClass = new DataBase();
-        addUsersToClass.SetupClass();
+
         foreach (User user in addUsersToClass.userslist)
         {
             if (user.Username.ToLower() == username.ToLower()) {

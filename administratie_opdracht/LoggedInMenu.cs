@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace administratie_opdracht
 {
@@ -10,6 +11,11 @@ namespace administratie_opdracht
     {
         public void LoggedinMenu(string Username, bool IsAdmin)
         {
+            if (IsAdmin)
+            {
+                Console.BackgroundColor = ConsoleColor.DarkBlue;
+                Console.ForegroundColor = ConsoleColor.Black;
+            }
             Console.Clear();
             string Menu;
             //have check with streamreader adminusers to check if user is an admin
