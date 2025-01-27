@@ -38,6 +38,9 @@ public class StreamReaderSetup
                 {
                     Console.WriteLine("incorrect password");
                     Task.Delay(1000).Wait();
+                    Console.Clear();
+                    Console.WriteLine("Enter Username:");
+                    Console.WriteLine(username);
                     Login(username);
                 }
             }

@@ -19,7 +19,7 @@ namespace administratie_opdracht
             file_name.Close();
             User newuser = new User(aUserName,aPassWord,IsAdmin);
             DataBase dataBase = new DataBase();
-            string jsonString = JsonSerializer.Serialize(newuser);
+            string jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(newuser, Newtonsoft.Json.Formatting.Indented);
             File.AppendAllText(fileName,jsonString);
             Console.WriteLine("Succesfully created: " + aUserName);
             Task.Delay(1000).Wait();
