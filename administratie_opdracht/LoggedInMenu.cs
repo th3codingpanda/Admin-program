@@ -54,7 +54,8 @@ namespace administratie_opdracht
                     LoggedinMenu(Username, IsAdmin);
                 }
             }
-            else {
+            else
+            {
                 Console.Clear();
                 Console.WriteLine("Enter menu Delete/Edit/logout");
                 Menu = Console.ReadLine().ToLower();
@@ -62,7 +63,7 @@ namespace administratie_opdracht
                 if (Menu == "delete")
                 {
                     DeleteUser deleteUser = new DeleteUser();
-                    deleteUser.DeleteUsers(Username, IsAdmin,"");
+                    deleteUser.DeleteUsers(Username, IsAdmin, "");
                 }
                 else if (Menu == "edit")
                 {
@@ -70,8 +71,9 @@ namespace administratie_opdracht
                     editUser.EditUsers(Username, IsAdmin, "");
 
                 }
-                else if (Menu == "logout") {
-                MainMenuSetup mainMenuSetup = new MainMenuSetup();
+                else if (Menu == "logout")
+                {
+                    MainMenuSetup mainMenuSetup = new MainMenuSetup();
                     mainMenuSetup.MainMenu();
                 }
                 else
@@ -82,7 +84,7 @@ namespace administratie_opdracht
                 }
 
             }
-            
+
         }
     }
 }

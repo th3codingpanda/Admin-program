@@ -12,21 +12,21 @@ namespace administratie_opdracht
 {
     public class StreamWriterSetup
     {
-        public async Task AddUser(string aUserName ,string aPassWord , bool IsAdmin)
+        public async Task AddUser(string aUserName, string aPassWord, bool IsAdmin)
         {
-             string fileName = $".\\Users\\{aUserName}.json";
+            string fileName = $".\\Users\\{aUserName}.json";
             var file_name = File.Create(fileName);
             file_name.Close();
-            User newuser = new User(aUserName,aPassWord,IsAdmin);
+            User newuser = new User(aUserName, aPassWord, IsAdmin);
             DataBase dataBase = new DataBase();
             string jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(newuser, Newtonsoft.Json.Formatting.Indented);
-            File.AppendAllText(fileName,jsonString);
+            File.AppendAllText(fileName, jsonString);
             Console.WriteLine("Succesfully created: " + aUserName);
             Task.Delay(1000).Wait();
             MainMenuSetup mainMenuSetup = new MainMenuSetup();
             mainMenuSetup.MainMenu();
             return;
-            }
-
         }
-   }
+
+    }
+}
