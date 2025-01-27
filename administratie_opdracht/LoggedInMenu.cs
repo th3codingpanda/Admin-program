@@ -18,7 +18,7 @@ namespace administratie_opdracht
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.DarkBlue;
                 Console.Clear();
-                Console.WriteLine("Enter menu Debug/Delete (user)/Edit (user)");
+                Console.WriteLine("Enter menu Debug/Delete (user)/Edit (user)/logout");
                 Menu = Console.ReadLine().ToLower();
                 if (Menu == "debug")
                 {
@@ -28,7 +28,10 @@ namespace administratie_opdracht
                 }
                 else if (Menu == "delete user" || Menu == "delete")
                 {
-
+                    Console.WriteLine("Enter The user you want to delete");
+                    Menu = Console.ReadLine();
+                    DeleteUser deleteUser = new DeleteUser();
+                    deleteUser.DeleteUsers(Menu, IsAdmin, Username);
                 }
                 else if (Menu == "edit user" || Menu == "edit")
                 {
@@ -36,28 +39,46 @@ namespace administratie_opdracht
                     Menu = Console.ReadLine();
                     EditUser editUser = new EditUser();
                     editUser.EditUsers(Menu, IsAdmin, Username);
-
+                }
+                else if (Menu == "logout")
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    MainMenuSetup mainMenuSetup = new MainMenuSetup();
+                    mainMenuSetup.MainMenu();
+                }
+                else
+                {
+                    Console.WriteLine("enter a valid option");
+                    Task.Delay(1000).Wait();
+                    LoggedinMenu(Username, IsAdmin);
                 }
             }
             else {
                 Console.Clear();
-
-                //have check with streamreader adminusers to check if user is an admin
-                Console.WriteLine("Enter menu Delete/Edit");
+                Console.WriteLine("Enter menu Delete/Edit/logout");
                 Menu = Console.ReadLine().ToLower();
-      
+
                 if (Menu == "delete")
                 {
-
+                    DeleteUser deleteUser = new DeleteUser();
+                    deleteUser.DeleteUsers(Username, IsAdmin,"");
                 }
                 else if (Menu == "edit")
                 {
+                    EditUser editUser = new EditUser();
+                    editUser.EditUsers(Username, IsAdmin, "");
 
-
+                }
+                else if (Menu == "logout") {
+                MainMenuSetup mainMenuSetup = new MainMenuSetup();
+                    mainMenuSetup.MainMenu();
                 }
                 else
                 {
-
+                    Console.WriteLine("enter a valid option");
+                    Task.Delay(1000).Wait();
+                    LoggedinMenu(Username, IsAdmin);
                 }
 
             }

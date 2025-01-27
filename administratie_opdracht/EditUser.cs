@@ -62,7 +62,7 @@ namespace administratie_opdracht
             }
             else {
                 foreach (User Users in db.userslist) {
-                    if (Users.Username == Username)
+                    if (Users.Username.ToLower() == Username.ToLower())
                     {
                         Console.WriteLine("What do you want to change your password to?");
                         Menu = Console.ReadLine();
